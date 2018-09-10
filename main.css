@@ -1,0 +1,53 @@
+body {
+  color: #69585f;
+  margin: 0;
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.my-name {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 400;
+  font-size: 4.5em;
+  margin: 0;
+}
+
+.profile-section {
+  padding: 20px;
+}
+
+.first-section {
+    height: 634px;
+background-color: #ebf8ff
+}
+
+.second-section {
+  height: 1204px;
+background-color: #fcffd7;
+color: white;
+}
+
+.third-section {
+    height: 634px;
+background-color: #bcfcbf;
+}
+
+.fourthsection {
+    height: 634px;
+background-color: #ffdada;
+color:white;
+}
+
+.project-images img {
+  max-width: 300px;
+}
