@@ -9,43 +9,56 @@ a {
   text-decoration: none
 }
 
-
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
+  position: fixed;
+  width: calc(100vw - 50px);
+  padding: 20px;
 }
+
+.menu-bar {}
+
 .my-name {
   font-family: 'Open Sans Condensed', sans-serif;
   font-weight: 400;
-  font-size: 4.5em;
+  font-size: 60px;
   margin: 0;
+  transition-duration: .7s;
+  line-height: 60px;
 }
 
-.profile-section {
+.tinier {
+  font-size: 20px;
+  transition-duration: .7s;
+    line-height: 20px;
+}
+
+.profilesection {
   padding: 20px;
 }
 
 .first-section {
-    height: 634px;
-background-color: #ebf8ff
+  height: 634px;
+  background-color: #ebf8ff
 }
 
 .second-section {
   height: 1204px;
-background-color: #fcffd7;
-color: white;
+  background-color: #fcffd7;
+  color: white;
 }
 
 .third-section {
-    height: 634px;
-background-color: #bcfcbf;
+  height: 634px;
+  background-color: #bcfcbf;
 }
 
 .fourthsection {
-    height: 634px;
-background-color: #ffdada;
-color:white;
+  height: 634px;
+  background-color: #ffdada;
+  color: white;
 }
 
 .project-images img {

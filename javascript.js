@@ -3,7 +3,7 @@ console.log('lol')
 
   $(function() {
     $.scrollify({
-      section : ".profile-section",
+      section : ".profilesection",
       sectionName : "section-name",
       interstitialSection : "",
       easing: "easeOutExpo",
@@ -15,10 +15,63 @@ console.log('lol')
       overflowScroll: true,
       updateHash: true,
       touchScroll:true,
-      before:function() {},
-      after:function() {},
+
+
+      before: function(i,profilesection) {
+            var ref = profilesection[i].attr("data-section-name");
+
+
+            if(ref==="first") {
+              $(".my-name").removeClass("tinier");
+            }
+
+            if(ref==="second") {
+              $(".my-name").addClass("tinier");
+            }
+
+            if(ref==="third") {
+              $(".my-name").addClass("tinier");
+            }
+
+          },
+
+          after:function(i,profilesection) {
+            var ref = profilesection[i].attr("data-section-name");
+
+            if(ref==="home") {
+
+            }
+            for(var j = 0;j < profilesection.length;j++) {
+              if(j>i) {
+              }
+            }
+          },
       afterResize:function() {},
       afterRender:function() {}
     });
+
+    // ///
+    //
+    //
+    // function initialPosition() {
+    //
+    //     var current = $.scrollify.current();
+    //
+    //     if(current.hasClass("ios7")===false) {
+    //       var height = parseInt($(".ios7").height());
+    //       var f = parseInt($(".features .gallery1").height()) - 50;
+    //
+    //       var top = 0 - (height*0.4) - (height-f);
+    //       $(".ios7 .gallery0").css("top",top);
+    //     } else {
+    //       $(".features").find(".gallery0,.gallery1,.gallery2").addClass("moved");
+    //     }
+    //
+    //   };
+    //
+    //   ///
+
+
+
      $(".links").on("click",$.scrollify.move);
   });
