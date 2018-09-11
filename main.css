@@ -61,6 +61,10 @@ a {
   color: white;
 }
 
-.project-images img {
+.each-project {
+  max-width: 300px;
+}
+
+.each-project img {
   max-width: 300px;
 }
