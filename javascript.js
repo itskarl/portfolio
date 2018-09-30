@@ -1,4 +1,4 @@
-console.log('lol')
+console.log('Look at me!')
 
 
   $(function() {
@@ -35,7 +35,7 @@ console.log('lol')
 
           },
 
-          after:function(i,profilesection) {
+      after:function(i,profilesection) {
             var ref = profilesection[i].attr("data-section-name");
 
             if(ref==="home") {
