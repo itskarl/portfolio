@@ -7,9 +7,12 @@
   <link rel="stylesheet" href="me.css">
   <link href="https://fonts.googleapis.com/css?family=Rajdhani|Quicksand" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <title>Karl Rodulfo</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="scrollify.js"></script>
+  <script src="jquery.modal.js"></script>
+  <link rel="stylesheet" href="jquery.modal.css" />
 
 </head>
 
@@ -39,16 +42,28 @@
     <div class="first-content">
       <ul>
         <h4> SOCIAL LINKS</i></h4>
-        <li><i class="fab fa-linkedin"></i>  <a href="http://linkedin.com/in/karlrodulfo" target="_blank">LINKEDIN</a></li>
-        <li><i class="fab fa-github-square"></i>  <a href="https://github.com/itskarl" target="_blank">GITHUB</a></li>
-        <li><i class="fab fa-angellist"></i></i>  <a href="https://angel.co/karl-rodulfo" target="_blank">ANGEL.CO</a></li>
-        <li><i class="fab fa-instagram"></i>  <a href="https://instagram.com/comicswithak" target="_blank">INSTAGRAM</a></li>
+        <li><i class="fab fa-linkedin"></i> <a href="http://linkedin.com/in/karlrodulfo" target="_blank">LINKEDIN</a></li>
+        <li><i class="fab fa-github-square"></i> <a href="https://github.com/itskarl" target="_blank">GITHUB</a></li>
+        <li><i class="fab fa-angellist"></i></i> <a href="https://angel.co/karl-rodulfo" target="_blank">ANGEL.CO</a></li>
+        <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/comicswithak" target="_blank">INSTAGRAM</a></li>
       </ul>
       <div class="first-right">
-        <p>FULL-STACK DEVELOPER WITH A PASSION FOR DESIGN. <br>
-          ARTIST. MEDIA ENTHUSISAST. STORYTELLER. <br>
-        FORMER TELEVISION PRODUCER.</p>
+        <p>FULL-STACK DEVELOPER WITH A PASSION FOR DESIGN. <br> ARTIST. MEDIA ENTHUSISAST. STORYTELLER. <br> FORMER TELEVISION PRODUCER.</p>
+
+        <div class='circle-container'>
+          <a><i class="devicon-ruby-plain colored deg230"><b>&nbsp;RUBY</b></i></a>
+          <a><i class="devicon-rails-plain colored deg220"><b>&nbsp;RAILS</b></i></a>
+          <a><i class="devicon-html5-plain colored deg210"><b>&nbsp;HTML</b></i></a>
+          <a><i class="devicon-css3-plain colored deg200"><b>&nbsp;CSS</b></i></a>
+          <a><i class="devicon-javascript-plain colored deg190"><b>&nbsp;JAVASCRIPT</b></i></a>
+          <a><i class="devicon-atom-original colored deg170"><b>&nbsp;ATOM</b></i></a>
+          <a><i class="devicon-github-plain colored deg180"><b>&nbsp;GITHUB/GIT</b></i></a>
+          <a><i class="devicon-heroku-original colored deg160"><b>&nbsp;HEROKU</b></i></a>
+          <a><i class="devicon-photoshop-plain colored deg150"><b>&nbsp;PHOTOSHOP</b></i></a>
+          <a><i class="devicon-illustrator-plain colored deg140"><b>&nbsp;ILLUSTRATOR</b></i></a>
+        </div>
       </div>
+
     </div>
     <!-- <aside>
       <div class="portrait-canvas">
@@ -81,33 +96,166 @@
         <div class="torso"></div>
         <div class="neck"></div>
     </aside> -->
-    </div>
+  </div>
 
   </div>
 
   <div class="profilesection second-section" data-section-name="second">
     <section class="all-projects">
-      <div class="each-project">
-        <img src="images/proj1.png">
-        <p> MUSINGS: A SOCIAL MEDIA SITE </p>
-      </div>
-      <div class="each-project">
-        <img src="images/proj2.png">
-        <p> KARL'S MODERN POKEDEX </p>
-      </div>
-      <div class="each-project">
-        <img src="images/proj3.png">
-        <p> A FRIEND IN KNEAD BAKERY SITE </p>
-      </div>
-      <div class="each-project">
-        <img src="images/proj4.png">
-        <p> A.F. ACADEMY: ADMINISTRATIVE PANEL </p>
-      </div>
-      <div class="each-project">
-        <img src="images/proj5.png">
-        <p> PLAN YOUR NIGHT: EVENING PLANS GENERATOR </p>
-      </div>
+      <a href="#proj6" rel="modal:open">
+        <div class="each-project">
+          <img src="images/proj6.png">
+          <p> CONCON MOBILE WEB APP </p>
+        </div>
+      </a>
+
+      <a href="#proj1" rel="modal:open">
+        <div class="each-project">
+          <img src="images/proj1.png">
+          <p> MUSINGS: A SOCIAL MEDIA SITE </p>
+        </div>
+      </a>
+
+      <a href="#proj2" rel="modal:open">
+        <div class="each-project">
+          <img src="images/proj2.png">
+          <p> KARL'S MODERN POKEDEX </p>
+        </div>
+      </a>
+
+      <a href="#proj3" rel="modal:open">
+        <div class="each-project">
+          <img src="images/proj3.png">
+          <p> A FRIEND IN KNEAD BAKERY SITE </p>
+        </div>
+      </a>
+
+      <a href="#proj4" rel="modal:open">
+        <div class="each-project">
+          <img src="images/proj4.png">
+          <p> A.F. ACADEMY: ADMINISTRATIVE PANEL </p>
+        </div>
+      </a>
+
+      <a href="#proj5" rel="modal:open">
+        <div class="each-project">
+          <img src="images/proj5.png">
+          <p> PLAN YOUR NIGHT: EVENING PLAN GENERATOR </p>
+        </div>
+      </a>
     </section>
+
+    <div id="proj1" class="modal">
+      <div class="inside-modal">
+        <div class="modal-pic">
+        </div>
+        <div>
+          <a href="https://musings1.herokuapp.com/" target="_blank"> <h4>MUSINGS: A SOCIAL MEDIA SITE</h4>
+          VISIT </a>(allow load time)
+          <p>Musings is a photo & microblogging site and your own personal visual diary! This is a site where you can capture a selfie and a thought.
+          </p>
+          <p>Built on Ruby on Sinatra</p>
+          <hr>
+          <p>FEATURES: <br>
+            <ul>
+              <li>Simple, lightweight, easy-to-use interface. </li>
+              <li>Website is fully responsive for desktop, tablet, and mobile! Please enjoy on different platforms!</li>
+              <li>Utilizes a speech bubble motif for a fun, dynamic, but cohesive style</li>
+              <li>Utilizes SQLite, ActiveRecord</li>
+            </ul>
+          </p>
+          <a href="https://github.com/itskarl/MUSINGS-social-media-site" target="_blank"><i class="fab fa-github"></i> github</a>
+        </div>
+      </div>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+    <div id="proj2" class="modal">
+      <div class="inside-modal">
+        <div class="modal-pic">
+        </div>
+        <div>
+          <a href="https://itskarl.github.io/pokemon-pokedex/" target="_blank"> <h4>KARL'S POKEMON POKEDEX</h4>
+          VISIT </a>
+          <p>A pokedex that displays pokemon info in a dynamic and visually appealing way. This is your one-stop shop to get all the stats on your favorite pokemon!
+          </p>
+          <p>Built with Javascript and AJAX</p>
+          <hr>
+          <p>FEATURES: <br>
+            <ul>
+              <li>Simple, lightweight, easy-to-use interface. </li>
+              <li>Stats, including - percentage bars - are dynamically generated via AJAX.</li>
+              <li>Website is fully responsive for desktop, tablet, and mobile! Please enjoy on different platforms!</li>
+              <li>Utilizes SQLite, ActiveRecord</li>
+            </ul>
+          </p>
+          <a href="https://github.com/itskarl/pokemon-pokedex" target="_blank"><i class="fab fa-github"></i> github</a>
+        </div>
+      </div>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+    <div id="proj3" class="modal">
+      <div class="inside-modal">
+        <div class="modal-pic">
+        </div>
+        <div>
+          <a href="https://afriendinknead.herokuapp.com/" target="_blank"> <h4>A FRIEND IN KNEAD</h4>
+          VISIT </a>(allow load time)
+          <p>A website for fictional bakery A FRIEND IN KNEAD. This is a full-stack site that features local baking events around the bakery's location.
+          </p>
+          <p>Built with Ruby on Sinatra</p>
+          <hr>
+          <p>FEATURES: <br>
+            <ul>
+              <li>Utilized Eventbrite API to dynamically generate local events </li>
+              <li>Features a bold aesthetic with bakery motifs to highlight the bakery and its products</li>
+              <li>Website is fully responsive for desktop and mobile! Please enjoy on different platforms!</li>
+            </ul>
+          </p>
+          <a href="https://github.com/itskarl/Bakery-website-fullstack" target="_blank"><i class="fab fa-github"></i> github</a>
+        </div>
+      </div>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+    <div id="proj4" class="modal">
+      <p>MUSIN4GS</p>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+    <div id="proj5" class="modal">
+      <p>MUSINGS5</p>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+    <div id="proj6" class="modal">
+      <div class="inside-modal">
+        <div class="modal-pic">
+        </div>
+        <div>
+          <a href="http://ethicalbuy.herokuapp.com/" target="_blank"><h4>CONCON: THE CONSCIENTIOUS CONSUMER TOOL</h4>
+           VISIT </a>(allow load time)
+          <p>Use your mobile device as a barcode reader! This app gives you a general rating on the product's parent company. This tool was designed to help consumers make more informed decisions on their grocery purchases.
+          </p>
+          <p>Built on Ruby on Rails</p>
+              <hr>
+          <p>FEATURES: <br>
+            <ul>
+              <li>Designed with very user-friendly interface and visually appealing graphics</li>
+              <li>Created and sourced data to create my own API and RESTful interface for company ratings</li>
+              <li>Utilizes quagga js for barcode reader</li>
+            </ul>
+          </p>
+          <a href="https://github.com/itskarl/buyethically" target="_blank"><i class="fab fa-github"></i> github</a>
+
+        </div>
+      </div>
+      <a href="#" rel="modal:close">Close</a>
+    </div>
+
+
+
   </div>
 
   <div class="profilesection third-section" data-section-name="third">
