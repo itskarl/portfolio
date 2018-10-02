@@ -161,7 +161,36 @@ ul {
 .fourth-section {
   height: 634px;
   background-color: #fdfcfa;
-  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(#fdfcfa 50%, rgba(252, 252, 250, 0.43)), url('images/wp1.png');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+}
+
+.fourth-element {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+
+
+  font-size: 14px;
+
+}
+
+.fourth-element img {
+  width: 130px;
+  height: 130px;
+  margin: 15px;
+  border-radius: 10px;
+  /* box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.48); */
+}
+
+.fourth-element p {
+  width: 300px;
 }
 
 .each-project {
