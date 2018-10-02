@@ -23,10 +23,10 @@
 
   <div class="header">
     <div class="menu-bar">
-      <a class="links" href="#first">HOME</a>
-      <a class="links" href="#second">WORK</a>
-      <a class="links" href="#third">RESUME</a>
-      <a class="links" href="#fourth">MISC</a>
+      <a class="links" href="#home">HOME</a>
+      <a class="links" href="#work">WORK</a>
+      <a class="links" href="#resume">RESUME</a>
+      <a class="links" href="#misc">MISC</a>
     </div>
     <div class="my-name">
       <div class="first-name">KARL</div>
@@ -37,18 +37,22 @@
 
 
 
-  <div class="profilesection first-section" data-section-name="first">
+  <div class="profilesection first-section" data-section-name="home">
 
     <div class="first-content">
       <ul>
+        <h4> KARL </i></h4>
+        <li><i class="fas fa-file-code"></i></i><a class="links" href="#work">MY PROJECTS</a></li>
+        <li><i class="fas fa-file-alt"></i><a class="links" href="#resume">MY RESUME</a></li>
         <h4> SOCIAL LINKS</i></h4>
         <li><i class="fab fa-linkedin"></i> <a href="http://linkedin.com/in/karlrodulfo" target="_blank">LINKEDIN</a></li>
         <li><i class="fab fa-github-square"></i> <a href="https://github.com/itskarl" target="_blank">GITHUB</a></li>
         <li><i class="fab fa-angellist"></i></i> <a href="https://angel.co/karl-rodulfo" target="_blank">ANGEL.CO</a></li>
-        <li><i class="fab fa-instagram"></i> <a href="https://instagram.com/comicswithak" target="_blank">INSTAGRAM</a></li>
       </ul>
+
       <div class="first-right">
-        <p>FULL-STACK DEVELOPER WITH A PASSION FOR DESIGN. <br> ARTIST. MEDIA ENTHUSISAST. STORYTELLER. <br> FORMER TELEVISION PRODUCER.</p>
+        <p>FULL-STACK DEVELOPER WITH A PASSION FOR DESIGN. <br> FORMER TELEVISION PRODUCER.</p>
+
 
         <div class='circle-container'>
           <a><i class="devicon-ruby-plain colored deg230"><b>&nbsp;RUBY</b></i></a>
@@ -100,7 +104,8 @@
 
   </div>
 
-  <div class="profilesection second-section" data-section-name="second">
+  <div class="profilesection second-section" data-section-name="work">
+    <center class="mywork">MY WORK</center>
     <section class="all-projects">
       <a href="#proj6" rel="modal:open">
         <div class="each-project">
@@ -148,10 +153,13 @@
     <div id="proj1" class="modal">
       <div class="inside-modal">
         <div class="modal-pic">
+          <video loop="loop" muted="muted" autoplay="autoplay" poster="images/proj1.png" class="svideo">
+            <source src="videos/musings.mp4" type="video/mp4">
+          </video>
         </div>
         <div>
-          <a href="https://musings1.herokuapp.com/" target="_blank"> <h4>MUSINGS: A SOCIAL MEDIA SITE</h4>
-          VISIT </a>(allow load time)
+          <a href="https://musings1.herokuapp.com/" target="_blank">
+            <h4>MUSINGS: A SOCIAL MEDIA SITE</h4> VISIT SITE </a>(allow load time)
           <p>Musings is a photo & microblogging site and your own personal visual diary! This is a site where you can capture a selfie and a thought.
           </p>
           <p>Built on Ruby on Sinatra</p>
@@ -167,16 +175,17 @@
           <a href="https://github.com/itskarl/MUSINGS-social-media-site" target="_blank"><i class="fab fa-github"></i> github</a>
         </div>
       </div>
-      <a href="#" rel="modal:close">Close</a>
+      <!-- <a href="#" rel="modal:close">Close</a> -->
     </div>
 
     <div id="proj2" class="modal">
       <div class="inside-modal">
         <div class="modal-pic">
+          <img src="https://raw.githubusercontent.com/itskarl/pokemon-pokedex/master/images/demo.gif">
         </div>
         <div>
-          <a href="https://itskarl.github.io/pokemon-pokedex/" target="_blank"> <h4>KARL'S POKEMON POKEDEX</h4>
-          VISIT </a>
+          <a href="https://itskarl.github.io/pokemon-pokedex/" target="_blank">
+            <h4>KARL'S POKEMON POKEDEX</h4> VISIT SITE </a>
           <p>A pokedex that displays pokemon info in a dynamic and visually appealing way. This is your one-stop shop to get all the stats on your favorite pokemon!
           </p>
           <p>Built with Javascript and AJAX</p>
@@ -184,85 +193,212 @@
           <p>FEATURES: <br>
             <ul>
               <li>Simple, lightweight, easy-to-use interface. </li>
-              <li>Stats, including - percentage bars - are dynamically generated via AJAX.</li>
+              <li>Stats, such as percentage bars are dynamically generated via AJAX.</li>
               <li>Website is fully responsive for desktop, tablet, and mobile! Please enjoy on different platforms!</li>
-              <li>Utilizes SQLite, ActiveRecord</li>
+              <li>Built fully on vanilla Javascript</li>
             </ul>
           </p>
           <a href="https://github.com/itskarl/pokemon-pokedex" target="_blank"><i class="fab fa-github"></i> github</a>
         </div>
       </div>
-      <a href="#" rel="modal:close">Close</a>
+
     </div>
 
     <div id="proj3" class="modal">
       <div class="inside-modal">
         <div class="modal-pic">
+          <video loop="loop" muted="muted" autoplay="autoplay" poster="images/proj3.png" class="svideo">
+            <source src="videos/afriendinknead.mp4" type="video/mp4">
+          </video>
         </div>
         <div>
-          <a href="https://afriendinknead.herokuapp.com/" target="_blank"> <h4>A FRIEND IN KNEAD</h4>
-          VISIT </a>(allow load time)
-          <p>A website for fictional bakery A FRIEND IN KNEAD. This is a full-stack site that features local baking events around the bakery's location.
+          <a href="https://afriendinknead.herokuapp.com/" target="_blank">
+            <h4>A FRIEND IN KNEAD</h4> VISIT SITE </a>(allow load time)
+          <p>A website for fictional bakery A FRIEND IN KNEAD. <br> This is a full-stack site that highlight's a baking company's information and products. It also features local baking events around the bakery's location.
           </p>
           <p>Built with Ruby on Sinatra</p>
           <hr>
           <p>FEATURES: <br>
             <ul>
-              <li>Utilized Eventbrite API to dynamically generate local events </li>
-              <li>Features a bold aesthetic with bakery motifs to highlight the bakery and its products</li>
+              <li>Utilizes Eventbrite API to dynamically generate local events </li>
+              <li>Features a festive aesthetic with bakery motifs to highlight the bakery and its products</li>
               <li>Website is fully responsive for desktop and mobile! Please enjoy on different platforms!</li>
             </ul>
           </p>
           <a href="https://github.com/itskarl/Bakery-website-fullstack" target="_blank"><i class="fab fa-github"></i> github</a>
         </div>
       </div>
-      <a href="#" rel="modal:close">Close</a>
+
     </div>
 
     <div id="proj4" class="modal">
-      <p>MUSIN4GS</p>
-      <a href="#" rel="modal:close">Close</a>
+      <div class="inside-modal">
+        <div class="modal-pic">
+          <video loop="loop" muted="muted" autoplay="autoplay" poster="images/proj4.png" class="svideo">
+            <source src="videos/afacademy.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <a href="https://afacademy.herokuapp.com/" target="_blank">
+            <h4>AF ACADEMY ADMIN PANEL</h4> VISIT SITE </a>(allow load time)
+          <p> An ultimate demonstration of object-oriented programming. This is an adminstrative panel for fictional school, Animal Farm Academy, where an administrator can manage students, teachers, classes and cohorts. Demo link available.
+          </p>
+          <p>Built on Ruby on Rails</p>
+          <hr>
+          <p>FEATURES: <br>
+            <ul>
+              <li>Showcases dynamic animation on landing page as a point of interest. Animation built on vanilla Javascript and CSS </li>
+              <li>Designed with very user-friendly interface and visually appealing graphics</li>
+              <li>Object models are designed to allow for an easy transition to a panel with different access priviliges for students and teachers.</li>
+
+            </ul>
+          </p>
+          <a href="https://github.com/itskarl/academy-panel" target="_blank"><i class="fab fa-github"></i> github</a>
+        </div>
+      </div>
+
     </div>
 
     <div id="proj5" class="modal">
-      <p>MUSINGS5</p>
-      <a href="#" rel="modal:close">Close</a>
+      <div class="inside-modal">
+        <div class="modal-pic">
+          <video loop="loop" muted="muted" autoplay="autoplay" poster="images/proj5.png" class="svideo">
+            <source src="videos/perfectnight.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div>
+          <a href="https://conciergely.herokuapp.com/" target="_blank">
+            <h4>PLAN MY NIGHT</h4> VISIT SITE </a>(allow load time)
+          <p> Are you an indecisive planner? Or have friends that are always just up for "whatever"? Then this app is for you! Plan My Night randomly generates plans for you, including two locations and a local event. This also features a meetup tool, which
+            will find the perfect venue located conveniently between you and a friend.
+          </p>
+          <p>Built on Ruby on Rails</p>
+          <hr>
+          <p>FEATURES: <br>
+            <ul>
+              <li>Utilizes multiple APIs to generate your perfect night! APIs include Weather API, Google Maps, Eventbrite, Geocoder, Stripe, and Yelp.</li>
+              <li>Designed with very user-friendly interface and visually appealing graphics</li>
+              <li>Site includes complex algorithms to generate a list of plans that are within walking distance (1 mi) of one another </li>
+              <li>Site allows users to save plans easily to quickly share and keep track of plans</li>
+
+            </ul>
+          </p>
+          <a href="https://github.com/itskarl/happymedium" target="_blank"><i class="fab fa-github"></i> github</a>
+        </div>
+      </div>
+
     </div>
 
     <div id="proj6" class="modal">
       <div class="inside-modal">
         <div class="modal-pic">
+          <video loop="loop" muted="muted" autoplay="autoplay" poster="images/proj6.png" class="hvideo">
+            <source src="videos/concon.mp4" type="video/mp4">
+          </video>
         </div>
         <div>
           <a href="http://ethicalbuy.herokuapp.com/" target="_blank"><h4>CONCON: THE CONSCIENTIOUS CONSUMER TOOL</h4>
-           VISIT </a>(allow load time)
+           VISIT SITE </a>(allow load time)
           <p>Use your mobile device as a barcode reader! This app gives you a general rating on the product's parent company. This tool was designed to help consumers make more informed decisions on their grocery purchases.
           </p>
           <p>Built on Ruby on Rails</p>
-              <hr>
+          <hr>
           <p>FEATURES: <br>
             <ul>
-              <li>Designed with very user-friendly interface and visually appealing graphics</li>
+
               <li>Created and sourced data to create my own API and RESTful interface for company ratings</li>
-              <li>Utilizes quagga js for barcode reader</li>
+              <li>Utilizes quagga js barcode reader for quick light-weight front-end information processing</li>
+              <li>Designed with very user-friendly interface and visually appealing graphics</li>
+              <li>Features News API to provide additional information on companies</li>
             </ul>
           </p>
           <a href="https://github.com/itskarl/buyethically" target="_blank"><i class="fab fa-github"></i> github</a>
 
         </div>
       </div>
-      <a href="#" rel="modal:close">Close</a>
+
     </div>
 
 
 
   </div>
 
-  <div class="profilesection third-section" data-section-name="third">
+  <div class="profilesection third-section" data-section-name="resume">
+
+
+    <div class="resume-content">
+
+      <div class="resume-text">
+        <div class="resume-button">
+          <div class="resume-img">
+            <img src="images/resume.png">
+          </div>
+          <div>
+            <h4>DOWNLOAD FULL PDF</h4>
+          </div>
+        </div>
+
+        <h3>SKILLS & PROGRAMMING LANGUAGES</h3>
+        <ul>
+        <li>Ruby, Ruby on Rails, HTML, CSS, Javascript, SCSS / SASS, AJAX, Git, Heroku, Agile, SQL, Photoshop, Illustrator, Adobe Premiere
+        </ul>
+
+
+        <h3>EDUCATION</h3>
+        <h4>NEW YORK CODE & DESIGN ACADEMY (2018)</h4>
+        <ul>
+        <li>Graduate of New York Code and Design's Software Engineering Intensive for full-stack web development.
+        </ul>
+        <h4>ST. JOHN'S UNIVERSITY </h4>
+        <ul>
+        <li>Bachelor's Degree in TV & Film Production, Minor in Business Administration, 3.98 GPA
+        <li> Graduated Summa Cum Laude, Salutatorian, STJ Presidential Scholar (full four-year scholarship)
+        </ul>
+
+      </div>
+
+      <div class="resume-text">
+
+        <h3>WORK EXPERIENCE</h3>
+        <h4>Television Producer / Project Manager @ DISCOVERY (2015 - 2018)</h4>
+        <ul>
+          <li>Oversaw day-to-day production timelines and worked closely with vendors and production companies to keep deliverables on time, on budget, and meeting all editorial requirements for hundreds of projects in production and development. Proven ability in juggling multiple high-stakes projects in production at once.
+          <li>Developed and produced twelve innovative, original nonfiction series for Animal Planet and Discovery Channel.
+          <li>Conceived, writed, and designed all treatments and presentation decks for all development projects for high-level execs, at a rate of roughly one per week.
+        </ul>
+        <h4>Development Coordinator @ ANIMAL PLANET (2010 - 2015)</h4>
+        <ul>
+          <li>Worked closely with producers, agents, and production companies to develop, manage, and produce new series and specials for the Animal Planet network.
+        <li>Evaluated hundreds of pitches and worked closely with producers to develop reels and treatments while working within budget constraints and brand mandates.
+        </ul>
+        <h4>Production Researcher @ NBC NEWS (2009 - 2010) </h4>
+        <ul>
+          <li>Provided breaking news updates to producers. Functioned as researcher and primary fact checker for all health-related stories for NBC News TODAY, Dateline, and Nightly News. Initiated outreach to interview subjects and conducted pre-interviews for segments.
+
+        </ul>
+        <h4>NBC Page @ NBC (2008 - 2009)</h4>
+        <ul>
+        <li>Facilitated tickets and audience coordination for live tapings of Late Night with Conan O'Brien Late Night With Jimmy Fallon, and Saturday Night Live
+        <li>Acted as a primary liaison between the NBC News publicity team ( Dateline, Meet the Press, Nightly News & TODAY Show ) and other media outlets during the 2008 presidential election.
+        <li>Conceived, prepared and compiled PowerPoint decks for SYFY clients and the marketing team. Managed SYFY mobile site.
+        </ul>
+      </div>
+
+
+    </div>
+
+
 
   </div>
 
-  <div class="profilesection fourth-section" data-section-name="fourth">
+  <div class="profilesection fourth-section" data-section-name="misc">
+    <div>
+      WEBCOMIC
+    </div>
+
+    <div>
+      TELEVISION
+    </div>
 
   </div>
 

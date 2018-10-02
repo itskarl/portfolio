@@ -21,15 +21,15 @@ console.log('Look at me!')
             var ref = profilesection[i].attr("data-section-name");
 
 
-            if(ref==="first") {
+            if(ref==="home") {
               $(".my-name").removeClass("tinier");
             }
 
-            if(ref==="second") {
+            if(ref==="work") {
               $(".my-name").addClass("tinier");
             }
 
-            if(ref==="third") {
+            if(ref==="resume") {
               $(".my-name").addClass("tinier");
             }
 

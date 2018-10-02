@@ -31,7 +31,7 @@ ul {
   position: fixed;
   width: 100vw;
   padding: 0px;
-  background: linear-gradient(#fdfcfa 50%, transparent);
+  background: linear-gradient(#fdfcfa 55%, transparent);
   z-index: 10;
 }
 
@@ -55,7 +55,7 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px 25px;
+  padding: 15px;
 }
 
 .my-name {
@@ -86,7 +86,8 @@ ul {
 
 .first-section {
   height: 634px;
-  background: linear-gradient(#fdfcfa 50%, transparent), url('images/wp1.png');
+  background-color: #fdfcfa;
+  background: linear-gradient(#fdfcfa 50%, rgba(252, 252, 250, 0.43)), url('images/wp1.png');
   padding: 100px 0 0 0;
   background-attachment: fixed;
   background-position: bottom;
@@ -114,20 +115,22 @@ ul {
 
 .first-content h4 {
   padding: 10px 10px 10px 40px;
+  width: 200px;
   font-size: 16px;
   transition-duration: .2s;
   margin: 5px 5px 5px 0;
   font-weight:400;
-  background-color: #4a89ba;
+  background: linear-gradient(.25turn, rgba(136, 189, 231, 0.78), rgba(150, 223, 250, 0.62));
   color: white;
   border-radius: 0 20px 20px 0;
 }
 
 .first-content li:hover {
   padding: 10px 10px 10px 50px;
-  background: linear-gradient(60deg, rgba(94, 174, 237, 0.66) 36%, rgba(255, 0, 0, 0) 73%) 50% 50% / 100% 11em;
+  background: linear-gradient(60deg, rgba(255, 160, 0, 0.66) 6%, rgba(0, 0, 0, 0) 73%) 50% 50% / 100% 11em;
   transition-duration: .2s;
-  color: rgb(223, 246, 255);
+  width: 250px;
+  color: rgb(255, 255, 255);
 }
 
 .first-right {
@@ -135,19 +138,27 @@ ul {
   text-align: right;
 }
 
+.first-right p{
+  margin: 0;
+}
+
 .second-section {
   height: 1204px;
   background-color: #fdfcfa;
-  padding-top: 120px;
+  padding-top: 80px;
 }
 
 .third-section {
   height: 634px;
   background-color: #fdfcfa;
-  padding-top: 80px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.fourthsection {
+
+.fourth-section {
   height: 634px;
   background-color: #fdfcfa;
   padding-top: 80px;
@@ -158,7 +169,7 @@ ul {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  filter: grayscale(80%);
+  filter: grayscale(90%);
   transition-duration: .3s;
   padding: 15px;
 }
@@ -169,13 +180,11 @@ ul {
   border-radius: 5px;
   transition-duration: .3s;
   border-style: solid;
-  border-width: 8px 0 0 0;
+  border-width: 10px 0 0 0;
 }
 
 .each-project img:hover {
-  max-width: 300px;
   box-shadow: 15px 20px 30px rgba(0, 0, 0, 0.27);
-  border-radius: 5px;
   transition-duration: .3s;
 }
 
@@ -215,30 +224,93 @@ list-style-position: inside;
   margin: 0;
 }
 
+.modal-pic {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.svideo, .modal-pic img {
+  width: 320px;
+}
+.hvideo {
+  height: 400px;
+}
+
+.mywork {
+  color: rgb(45, 109, 176)
+}
+
+.resume-button {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+border-radius: 50%;
+
+}
+
+.resume-img {
+  padding: 9px;
+  margin: 10px 10px 10px 0;
+  border-radius: 9px;
+  background-color: rgba(52, 162, 242, 0.71);
+}
+
+.resume-img img {
+  width: 23px;
+  height: 23px;
+}
+
+.resume-button p {
+margin:0;
+}
+
+.resume-text {
+  font-size: 13px;
+  padding: 20px;
+}
+
+.resume-text h3 {
+  color: rgb(52, 162, 242)
+}
+
+.resume-text ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+.resume-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
 /* THE CIRCLE */
 
 .circle-container {
     position: relative;
     width: 300px;
     height: 300px;
-    /* border: dashed 1px; */
+    border: dotted 2px ;
+    border-color: rgb(49, 130, 189);
     border-radius: 50%;
-    margin: 40px 0;
+    margin: 50px 0;
     /* padding: 17.5px; */
-    background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/17191102_10102862326402017_8412855384604244678_n.jpg?_nc_cat=104&oh=b417abdabe3e5d1304a7b124a429db2b&oe=5C576C08');
+    /* background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/17191102_10102862326402017_8412855384604244678_n.jpg?_nc_cat=104&oh=b417abdabe3e5d1304a7b124a429db2b&oe=5C576C08'); */
     background-size: cover;
 }
 
-
-
 .circle-container a {
-    display: block;
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 50px; height: 50px;
-    margin: 0;
-    font-size: 20px;
+  display: block;
+  position: absolute;
+  top: calc(50% - 10px);
+  left: calc(50% - 20px);
+  width: 0px;
+  height: 0px;
+  margin: 0;
+  font-size: 20px;
 }
+
 .circle-container i {
   display: block; width: 100%;
 }
@@ -247,19 +319,19 @@ list-style-position: inside;
     font-family: 'Quicksand', sans-serif;
     font-size: 14px;
     color: #69585f;
-    background-color: rgba(255, 255, 255, 0.45);
+    /* background-color: rgba(255, 255, 255, 0.45); */
     padding: 5px;
     font-weight: 400;
-    border-radius: 5px;
+
 }
 
-.deg140 { transform: rotate(140deg) translate(220px) rotate(-140deg); }
-.deg150 { transform: rotate(150deg) translate(220px) rotate(-150deg); }
-.deg160 { transform: rotate(160deg) translate(220px) rotate(-160deg); }
-.deg170 { transform: rotate(170deg) translate(220px) rotate(-170deg); }
-.deg180 { transform: rotate(180deg) translate(220px) rotate(-180deg); }
-.deg190 { transform: rotate(190deg) translate(220px) rotate(-190deg); }
-.deg200 { transform: rotate(200deg) translate(220px) rotate(-200deg); }
-.deg210 { transform: rotate(210deg) translate(220px) rotate(-210deg); }
-.deg220 { transform: rotate(220deg) translate(220px) rotate(-220deg); }
-.deg230 { transform: rotate(230deg) translate(220px) rotate(-230deg); }
+.deg140 { transform: rotate(40deg) translate(180px); }
+.deg150 { transform: rotate(30deg) translate(180px); }
+.deg160 { transform: rotate(20deg) translate(180px); }
+.deg170 { transform: rotate(10deg) translate(180px); }
+.deg180 { transform: rotate(0deg) translate(180px); }
+.deg190 { transform: rotate(350deg) translate(180px) ; }
+.deg200 { transform: rotate(340deg) translate(180px) ; }
+.deg210 { transform: rotate(330deg) translate(180px) ; }
+.deg220 { transform: rotate(320deg) translate(180px) ; }
+.deg230 { transform: rotate(310deg) translate(180px) ; }
