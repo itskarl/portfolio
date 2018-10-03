@@ -403,7 +403,7 @@ margin:0;
 
 
 @media only screen and (max-width: 600px) {
-  .first-content {
+.first-content {
     display: flex;
     flex-direction: column;
 }
@@ -421,7 +421,8 @@ margin:0;
     left: calc(50% - 185px);
 }
 .first-content h4 {
-    width: 100%;
+  border-radius: 0;
+width: calc(100% - 50px);
 }
 .first-content li:hover {
     width: 100%;
