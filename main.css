@@ -87,7 +87,7 @@ ul {
 .first-section {
   height: 634px;
   background-color: #fdfcfa;
-  background: linear-gradient(#fdfcfa 50%, rgba(252, 252, 250, 0.43)), url('images/wp1.png');
+  background: linear-gradient(#fdfcfa 80px, rgba(252, 252, 250, 0.13)), url('images/wp4.png');
   padding: 100px 0 0 0;
   background-attachment: fixed;
   background-position: bottom;
@@ -146,6 +146,11 @@ ul {
   height: 1204px;
   background-color: #fdfcfa;
   padding-top: 80px;
+  background: linear-gradient(#fdfcfa 50px, transparent), url('images/wp6.png');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  flex-direction: column;
 }
 
 .third-section {
@@ -155,6 +160,11 @@ ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  background: linear-gradient(#fdfcfa 50px, transparent), url('images/wp4.png');
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  flex-direction: column;
 }
 
 
@@ -164,13 +174,21 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(#fdfcfa 50%, rgba(252, 252, 250, 0.43)), url('images/wp1.png');
+  background: linear-gradient(#fdfcfa 50px, transparent), url('images/wp5.png');
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
-  flex-wrap: wrap;
+  flex-direction: column;
 }
-
+.fourth-wrapper {
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.fourth-wrapper h4 {
+  font-weight: 400;
+}
 .fourth-element {
   display: flex;
   align-items: flex-start;
@@ -184,6 +202,8 @@ ul {
   margin: 15px;
   border-radius: 10px;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.48);
+  border-style: solid;
+  border-color: #fff;
 }
 
 .fourth-element p {
@@ -263,6 +283,10 @@ list-style-position: inside;
   height: 400px;
 }
 
+.hvideo img {
+  width: 320px;
+}
+
 .mywork {
   color: rgb(45, 109, 176)
 }
@@ -276,16 +300,24 @@ border-radius: 50%;
 
 }
 
+.resume-button h4 {
+  font-weight: 400;
+  color: rgb(218, 173, 36);
+  font-size: 16px;
+  margin: 0;
+}
+
+.resume-button h4:hover {
+  color:#34a2f2;
+}
+
 .resume-img {
-  padding: 9px;
   margin: 10px 10px 10px 0;
-  border-radius: 9px;
-  background-color: rgba(52, 162, 242, 0.71);
 }
 
 .resume-img img {
-  width: 23px;
-  height: 23px;
+  width: 20px;
+  height: 20px;
 }
 
 .resume-button p {
@@ -324,6 +356,12 @@ margin:0;
     /* padding: 17.5px; */
     /* background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/17191102_10102862326402017_8412855384604244678_n.jpg?_nc_cat=104&oh=b417abdabe3e5d1304a7b124a429db2b&oe=5C576C08'); */
     background-size: cover;
+    background-size: cover;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-size: 13px;
 }
 
 .circle-container a {
@@ -335,6 +373,7 @@ margin:0;
   height: 0px;
   margin: 0;
   font-size: 20px;
+
 }
 
 .circle-container i {
