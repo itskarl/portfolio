@@ -420,8 +420,7 @@ margin:0;
 }
 .menu-bar {
     position: relative;
-    left: calc(50% - 180px);
-    padding: 5px;
+    padding: 0px;
 }
 .first-content h4 {
   border-radius: 0;
@@ -523,6 +522,20 @@ margin:0;
 .first-content i {
     font-size: 16px;
     padding: 0 5px 0 0;
+}
+
+.circle-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-left: -100px;
+}
+.menu-bar-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.header {
+  background: white;
 }
 
 .deg140 { transform: rotate(40deg) translate(140px); }
