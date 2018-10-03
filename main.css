@@ -31,7 +31,7 @@ ul {
   position: fixed;
   width: 100vw;
   padding: 0px;
-  background: linear-gradient(#fdfcfa 55%, transparent);
+  background: linear-gradient(#fdfcfa 65%, transparent);
   z-index: 10;
 }
 
