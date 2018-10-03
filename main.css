@@ -357,11 +357,11 @@ margin:0;
     /* background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/17191102_10102862326402017_8412855384604244678_n.jpg?_nc_cat=104&oh=b417abdabe3e5d1304a7b124a429db2b&oe=5C576C08'); */
     background-size: cover;
     background-size: cover;
-display: flex;
-align-items: center;
-justify-content: center;
-text-align: center;
-font-size: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
 }
 
 .circle-container a {
@@ -373,7 +373,6 @@ font-size: 13px;
   height: 0px;
   margin: 0;
   font-size: 20px;
-
 }
 
 .circle-container i {
