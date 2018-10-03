@@ -350,12 +350,12 @@ margin:0;
     position: relative;
     width: 300px;
     height: 300px;
-    border: inset 2px steelblue;
+    border: solid 2px steelblue;
     border-color: rgb(49, 130, 189);
     border-radius: 50%;
     margin: 50px 0;
     /* padding: 17.5px; */
-    /* background: url('https://scontent-lga3-1.xx.fbcdn.net/v/t1.0-9/17191102_10102862326402017_8412855384604244678_n.jpg?_nc_cat=104&oh=b417abdabe3e5d1304a7b124a429db2b&oe=5C576C08'); */
+    background: url('images/colors.jpg');
     background-size: cover;
     background-size: cover;
     display: flex;
@@ -363,6 +363,7 @@ margin:0;
     justify-content: center;
     text-align: center;
     font-size: 14px;
+    color: white;
 }
 
 .circle-container a {
