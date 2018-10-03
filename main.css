@@ -5,6 +5,14 @@ body {
   font-weight: 400;
 }
 
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: rgb(42, 64, 130)
@@ -518,15 +526,15 @@ margin:0;
   width: 100%;
 }
 
-.deg140 { transform: rotate(40deg) translate(130px); }
-.deg150 { transform: rotate(30deg) translate(130px); }
-.deg160 { transform: rotate(20deg) translate(130px); }
-.deg170 { transform: rotate(10deg) translate(130px); }
-.deg180 { transform: rotate(0deg) translate(130px); }
-.deg190 { transform: rotate(350deg) translate(130px) ; }
-.deg200 { transform: rotate(340deg) translate(130px) ; }
-.deg210 { transform: rotate(330deg) translate(130px) ; }
-.deg220 { transform: rotate(320deg) translate(130px) ; }
-.deg230 { transform: rotate(310deg) translate(130px) ; }
+.deg140 { transform: rotate(40deg) translate(140px); }
+.deg150 { transform: rotate(30deg) translate(140px); }
+.deg160 { transform: rotate(20deg) translate(140px); }
+.deg170 { transform: rotate(10deg) translate(140px); }
+.deg180 { transform: rotate(0deg) translate(140px); }
+.deg190 { transform: rotate(350deg) translate(140px) ; }
+.deg200 { transform: rotate(340deg) translate(140px) ; }
+.deg210 { transform: rotate(330deg) translate(140px) ; }
+.deg220 { transform: rotate(320deg) translate(140px) ; }
+.deg230 { transform: rotate(310deg) translate(140px) ; }
 
 }
