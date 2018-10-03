@@ -511,6 +511,11 @@ margin:0;
 
 .hvideo {
     height: auto;
+    max-height: 200px;
+}
+
+.modal {
+  width: 100%;
 }
 
 .deg140 { transform: rotate(40deg) translate(130px); }
