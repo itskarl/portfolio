@@ -509,6 +509,10 @@ margin:0;
     border-radius: 5px;
 }
 
+.hvideo {
+    height: auto;
+}
+
 .deg140 { transform: rotate(40deg) translate(130px); }
 .deg150 { transform: rotate(30deg) translate(130px); }
 .deg160 { transform: rotate(20deg) translate(130px); }
