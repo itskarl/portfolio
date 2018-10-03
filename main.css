@@ -399,3 +399,74 @@ margin:0;
 .deg210 { transform: rotate(330deg) translate(180px) ; }
 .deg220 { transform: rotate(320deg) translate(180px) ; }
 .deg230 { transform: rotate(310deg) translate(180px) ; }
+
+
+
+@media only screen and (max-width: 600px) {
+  .first-content {
+    display: flex;
+    flex-direction: column;
+}
+.my-name {
+    font-size: 30px;
+    margin: 0;
+    position: absolute;
+    left: calc(50% - 140px);
+    top: 30px;
+    z-index: -10;
+    text-shadow: 0 0 5px #0003;
+}
+.menu-bar {
+    position: relative;
+    left: calc(50% - 185px);
+}
+.first-content h4 {
+    width: 100%;
+}
+.first-content li:hover {
+    width: 100%;
+}
+.inside-modal {
+    grid-template-columns: 1fr;
+    grid-row-gap: 20px;
+}
+.first-right {
+    padding: 0 20px;
+}
+.first-right p {
+    text-align: center;
+}
+.circle-container {
+    width: 200px;
+    height: 200px;
+    margin: 70px 0;
+}
+.svideo, .modal-pic img {
+    width: 240px;
+}
+.resume-content {
+    grid-template-columns: 1fr;
+}
+.resume-text {
+    padding: 0 20px;
+}
+.fourth-element {
+    align-items: center;
+    flex-direction: column;
+}
+.tinier {
+    display: none;
+}
+
+.deg140 { transform: rotate(40deg) translate(130px); }
+.deg150 { transform: rotate(30deg) translate(130px); }
+.deg160 { transform: rotate(20deg) translate(130px); }
+.deg170 { transform: rotate(10deg) translate(130px); }
+.deg180 { transform: rotate(0deg) translate(130px); }
+.deg190 { transform: rotate(350deg) translate(130px) ; }
+.deg200 { transform: rotate(340deg) translate(130px) ; }
+.deg210 { transform: rotate(330deg) translate(130px) ; }
+.deg220 { transform: rotate(320deg) translate(130px) ; }
+.deg230 { transform: rotate(310deg) translate(130px) ; }
+
+}
