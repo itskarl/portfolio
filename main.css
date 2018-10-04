@@ -130,7 +130,7 @@ ul {
   padding: 10px 10px 10px 50px;
   background: linear-gradient(60deg, rgba(255, 160, 0, 0.66) 6%, rgba(0, 0, 0, 0) 73%) 50% 50% / 100% 11em;
   transition-duration: .2s;
-  width: 250px;
+  width: 200px;
   color: rgb(255, 255, 255);
 }
 
@@ -538,6 +538,11 @@ margin:0;
   background: white;
 }
 
+.second-section {
+  height: 1700px;
+}
+
+.
 .deg140 { transform: rotate(40deg) translate(140px); }
 .deg150 { transform: rotate(30deg) translate(140px); }
 .deg160 { transform: rotate(20deg) translate(140px); }
