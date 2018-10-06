@@ -421,8 +421,9 @@ margin:0;
 }
 .contact-row i {
   width: 25px;
- padding-right: 5px;
+ padding-right: 0px;
  text-align: right;
+ font-size: 16px;
 }
 .contact-row b {
   font-weight: 400;
@@ -435,7 +436,7 @@ margin:0;
   align-items: center;
   justify-content: center;
   text-shadow: 0 0 5px black;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .resume-text img {
