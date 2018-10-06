@@ -81,6 +81,7 @@ ul {
   line-height: calc(1em + 13px);
 }
 
+
 .profilesection {
   padding: 20px;
 }
@@ -307,6 +308,13 @@ border-radius: 50%;
   margin: 0;
 }
 
+.resume-text h4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .resume-button h4:hover {
   color:#34a2f2;
 }
@@ -330,12 +338,15 @@ margin:0;
 }
 
 .resume-text h3 {
-  color: rgb(52, 162, 242)
+  color: rgb(255, 101, 101)
 }
 
 .resume-text ul {
   list-style-type: square;
-  list-style-position: inside;
+  list-style-position: outside;
+}
+.resume-text ul ul {
+  padding: 0 0 0 20px;
 }
 .resume-content {
   display: grid;
@@ -403,6 +414,37 @@ margin:0;
 
 
 
+.contact-row {
+  display: flex;
+  align-items: center;
+
+}
+.contact-row i {
+  width: 25px;
+ padding-right: 5px;
+ text-align: right;
+}
+.contact-row b {
+  font-weight: 400;
+  padding: 5px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 0 0 5px black;
+  font-size: 16px;
+}
+
+.resume-text img {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
 @media only screen and (max-width: 600px) {
 .first-content {
     display: flex;
@@ -428,7 +470,7 @@ margin:0;
   display: flex;
   justify-content: center;
   margin: 8px 0;
-  background: linear-gradient(0.25turn, rgb(115, 170, 168, .75) 30%, rgba(61, 134, 219, 0.75));
+  background: linear-gradient(0.25turn, rgba(115, 170, 168, .75) 30%, rgba(61, 134, 219, 0.75));
 
 }
 .first-content li:hover {
@@ -495,7 +537,7 @@ margin:0;
 .first-content li {
     padding: 5px;
     font-size: 14px;
-    display: inline;
+    display: inline-block;
 }
 
 .first-content ul {
