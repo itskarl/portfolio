@@ -424,11 +424,12 @@ margin:0;
   width: 25px;
  padding-right: 0px;
  text-align: right;
- font-size: 16px;
+
 }
 .contact-row b {
   font-weight: 400;
   padding: 5px;
+   font-size: 16px;
 }
 
 .contact {
