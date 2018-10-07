@@ -612,7 +612,6 @@ margin:0;
   padding: 20px;
 }
 
-.contact {
-  font-size: 12px;
-}
+.contact-row b {
+   font-size: 10px;
 }
