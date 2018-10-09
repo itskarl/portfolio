@@ -597,8 +597,6 @@ margin:0;
 .header {
   background: white;
 }
-
-
 .deg140 { transform: rotate(40deg) translate(140px); }
 .deg150 { transform: rotate(30deg) translate(140px); }
 .deg160 { transform: rotate(20deg) translate(140px); }
@@ -625,7 +623,13 @@ margin:0;
 .mywork {
   padding: 20px;
 }
-
 .contact-row b {
    font-size: 11px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+.header a {
+    font-size: 12px;
+}
 }
