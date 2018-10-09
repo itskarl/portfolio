@@ -23,7 +23,8 @@ ul {
 
 .menu-bar a {
   text-decoration: none;
-  color: #69585f
+  color: #69585f;
+  transition-duration: .2s;
 }
 
 .header {
@@ -190,6 +191,8 @@ ul {
 }
 .fourth-wrapper h4 {
   font-weight: 400;
+  margin-bottom: 5px;
+
 }
 .fourth-element {
   display: flex;
@@ -199,8 +202,8 @@ ul {
 }
 
 .fourth-element img {
-  width: 130px;
-  height: 130px;
+  width: 100px;
+  height: 100px;
   margin: 15px;
   border-radius: 10px;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.48);
@@ -210,6 +213,13 @@ ul {
 
 .fourth-element p {
   width: 300px;
+  margin-top: 5px;
+}
+
+.fourth-titles {
+  color: rgb(255, 80, 80);
+  font-weight: 400;
+  justify-content: left;
 }
 
 .each-project {
@@ -353,6 +363,10 @@ margin:0;
   display: grid;
   grid-template-columns: 1fr 1fr;
 
+}
+
+.aboutme {
+  font-size: 13px;
 }
 
 /* THE CIRCLE */
@@ -521,7 +535,7 @@ margin:0;
 }
 .fourth-element p {
     width: auto;
-    font-size: 12px
+    font-size: 12px;
 }
 .fourth-element h4 {
     width: auto;
