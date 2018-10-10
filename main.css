@@ -655,8 +655,8 @@ margin:0;
     max-width: 400px;
   }
   .circle-container {
-    width: 450px;
-    height: 450px;
+    width: 430px;
+    height: 430px;
   }
   .contact-row b {
     font-size: 22px;
@@ -682,16 +682,16 @@ margin:0;
 
   }
 
-  .deg140 { transform: rotate(40deg) translate(270px); }
-  .deg150 { transform: rotate(30deg) translate(270px); }
-  .deg160 { transform: rotate(20deg) translate(270px); }
-  .deg170 { transform: rotate(10deg) translate(270px); }
-  .deg180 { transform: rotate(0deg) translate(270px); }
-  .deg190 { transform: rotate(350deg) translate(270px) ; }
-  .deg200 { transform: rotate(340deg) translate(270px) ; }
-  .deg210 { transform: rotate(330deg) translate(270px) ; }
-  .deg220 { transform: rotate(320deg) translate(270px) ; }
-  .deg230 { transform: rotate(310deg) translate(270px) ; }
+  .deg140 { transform: rotate(40deg) translate(250px); }
+  .deg150 { transform: rotate(30deg) translate(250px); }
+  .deg160 { transform: rotate(20deg) translate(250px); }
+  .deg170 { transform: rotate(10deg) translate(250px); }
+  .deg180 { transform: rotate(0deg) translate(250px); }
+  .deg190 { transform: rotate(350deg) translate(250px) ; }
+  .deg200 { transform: rotate(340deg) translate(250px) ; }
+  .deg210 { transform: rotate(330deg) translate(250px) ; }
+  .deg220 { transform: rotate(320deg) translate(250px) ; }
+  .deg230 { transform: rotate(310deg) translate(250px) ; }
 
 }
 
@@ -701,7 +701,7 @@ margin:0;
 /* EXTRA LARGE SCREEN */
 /* EXTRA LARGE SCREEN */
 
-@media only screen and (min-width: 1921px) {
+@media only screen and (min-width: 1920px) {
   body {
     font-size: 22px;
   }
