@@ -633,3 +633,126 @@ margin:0;
     font-size: 12px;
 }
 }
+
+
+/* LARGE SCREEN */
+/* LARGE SCREEN */
+/* LARGE SCREEN */
+/* LARGE SCREEN */
+
+
+@media only screen and (min-width: 1367px) {
+  body {
+    font-size: 20px;
+  }
+  .resume-text {
+    font-size: 18px;
+  }
+  .aboutme {
+    font-size: 18px;
+  }
+  .each-project img {
+    max-width: 400px;
+  }
+  .circle-container {
+    width: 450px;
+    height: 450px;
+  }
+  .contact-row b {
+    font-size: 22px;
+  }
+  .each-project p {
+    font-size: 18px;
+  }
+  .fourth-element {
+    font-size: 16px;
+  }
+  .fourth-element p {
+    width: 400px;
+  }
+  .circle-container i b {
+    font-size: 20px;
+  }
+  .first-content h4 {
+    width: 350px;
+    font-size: 24px;
+  }
+  .first-content li {
+    font-size: 22px;
+
+  }
+
+  .deg140 { transform: rotate(40deg) translate(270px); }
+  .deg150 { transform: rotate(30deg) translate(270px); }
+  .deg160 { transform: rotate(20deg) translate(270px); }
+  .deg170 { transform: rotate(10deg) translate(270px); }
+  .deg180 { transform: rotate(0deg) translate(270px); }
+  .deg190 { transform: rotate(350deg) translate(270px) ; }
+  .deg200 { transform: rotate(340deg) translate(270px) ; }
+  .deg210 { transform: rotate(330deg) translate(270px) ; }
+  .deg220 { transform: rotate(320deg) translate(270px) ; }
+  .deg230 { transform: rotate(310deg) translate(270px) ; }
+
+}
+
+
+/* EXTRA LARGE SCREEN */
+/* EXTRA LARGE SCREEN */
+/* EXTRA LARGE SCREEN */
+/* EXTRA LARGE SCREEN */
+
+@media only screen and (min-width: 1921px) {
+  body {
+    font-size: 22px;
+  }
+  .resume-text {
+    font-size: 20px;
+  }
+  .resume-button h4{
+    font-size:20px;
+  }
+  .aboutme {
+    font-size: 20px;
+  }
+  .each-project img {
+    max-width: 550px;
+  }
+  .circle-container {
+    width: 550px;
+    height: 550px;
+  }
+  .contact-row b {
+    font-size: 26px;
+  }
+  .each-project p {
+    font-size: 20px;
+  }
+  .fourth-element {
+    font-size: 20px;
+  }
+  .fourth-element p {
+    width: 800px;
+    font-size: 20px
+  }
+  .circle-container i b {
+    font-size: 26px;
+  }
+  .first-content h4 {
+    width: 350px;
+    font-size: 26px;
+  }
+  .first-content li {
+    font-size: 24px;
+
+  }
+  .deg140 { transform: rotate(40deg) translate(320px); }
+  .deg150 { transform: rotate(30deg) translate(320px); }
+  .deg160 { transform: rotate(20deg) translate(320px); }
+  .deg170 { transform: rotate(10deg) translate(320px); }
+  .deg180 { transform: rotate(0deg) translate(320px); }
+  .deg190 { transform: rotate(350deg) translate(320px) ; }
+  .deg200 { transform: rotate(340deg) translate(320px) ; }
+  .deg210 { transform: rotate(330deg) translate(320px) ; }
+  .deg220 { transform: rotate(320deg) translate(320px) ; }
+  .deg230 { transform: rotate(310deg) translate(320px) ; }
+}
