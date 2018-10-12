@@ -371,6 +371,14 @@ margin:0;
   padding: 0 25px;
 }
 
+.fourth-element div, .fourth-element h4, .fourth-element p {
+    margin: auto auto;
+}
+
+.fourth-element h4 {
+  margin-bottom: 8px;
+}
+
 /* THE CIRCLE */
 
 .circle-container {
