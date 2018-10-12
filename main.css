@@ -290,6 +290,7 @@ list-style-position: inside;
 
 .svideo, .modal-pic img {
   width: 320px;
+  margin: auto;
 }
 .hvideo {
   height: 400px;
@@ -645,6 +646,16 @@ margin:0;
 @media only screen and (min-width: 1367px) {
   body {
     font-size: 20px;
+  }
+  .inside-modal {
+    font-size: inherit;
+  }
+  .modal {
+    max-width: 75%
+  }
+  .modal-pic img {
+    width: 70%;
+    margin: auto;
   }
   .resume-text {
     font-size: 18px;
