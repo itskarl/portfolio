@@ -363,6 +363,22 @@ margin:0;
 .resume-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+.resume-box {
+  display: grid;
+  grid-template-columns: 30px auto;
+}
+
+.resume-box h3 {
+  transform: translateX(-50%) translateY(0%) rotate(-90deg);
+  position:absolute;
+  padding: 0 20px;
+  margin-top: -20px;
+}
+
+.resume-box div {
+  align-self: center;
 
 }
 
