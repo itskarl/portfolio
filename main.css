@@ -132,7 +132,7 @@ ul {
   padding: 10px 10px 10px 50px;
   background: linear-gradient(60deg, rgba(255, 160, 0, 0.66) 6%, rgba(0, 0, 0, 0) 73%) 50% 50% / 100% 11em;
   transition-duration: .2s;
-  width: 200px;
+  width: 160px;
   color: rgb(255, 255, 255);
 }
 
@@ -235,7 +235,7 @@ ul {
 .each-project img {
   max-width: 300px;
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.32);
-  border-radius: 5px;
+
   transition-duration: .3s;
   border-style: solid;
   border-width: 10px 0 0 0;
